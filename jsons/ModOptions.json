@@ -1,0 +1,15 @@
+{
+    "isBaseRuleset": true, 
+    "uniques":[
+        "Suppress warning [Warrior is supposed to automatically upgrade at tech Civil Service, and therefore Iron Working for its upgrade Swordsman may not yet be researched!]",
+        "Suppress warning [Maori Warrior is supposed to automatically upgrade at tech Civil Service, and therefore Iron Working for its upgrade Swordsman may not yet be researched!]",
+        "Suppress warning [Jaguar is supposed to automatically upgrade at tech Civil Service, and therefore Iron Working for its upgrade Swordsman may not yet be researched!]",
+        "Suppress warning [Brute is supposed to automatically upgrade at tech Civil Service, and therefore Iron Working for its upgrade Swordsman may not yet be researched!]",
+        "Suppress warning [Dromon is supposed to automatically upgrade at tech Astronomy, and therefore Compass for its upgrade Galleass may not yet be researched!]",
+        "Suppress warning [Galley is supposed to automatically upgrade at tech Astronomy, and therefore Compass for its upgrade Galleass may not yet be researched!]",
+        "Suppress warning [Legion is supposed to automatically upgrade at tech Gunpowder, and therefore Steel for its upgrade Longswordsman may not yet be researched!]",
+        "Suppress warning [Mohawk Warrior is supposed to automatically upgrade at tech Gunpowder, and therefore Steel for its upgrade Longswordsman may not yet be researched!]",
+        "Suppress warning [Caravel is supposed to automatically upgrade at tech Combustion, and therefore Steam Power for its upgrade Ironclad may not yet be researched!]",
+        "Suppress warning [Turtle Ship is supposed to automatically upgrade at tech Combustion, and therefore Steam Power for its upgrade Ironclad may not yet be researched!]"
+    ]
+}
