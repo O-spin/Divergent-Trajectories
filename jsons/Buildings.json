@@ -1280,8 +1280,8 @@
 		"isNationalWonder": true,
 		"uniques": [
 			"Comment [Only available when owning more than half of [World Wonder] buildings constructed by all civilizations (minimum of 5)]",
-			"Unavailable <when number of [[[World Wonder] Buildings by [this] Civilizations]/[[World Wonder] Buildings by [all] Civilizations]] is less than [0.5]> <hidden from users>",
-			"Unavailable <when number of [[[World Wonder] Buildings by [this] Civilizations]] is less than [5]> <hidden from users>", 
+			"Unavailable <when number of [[[World Wonder] Buildings]*2] is less than [[[World Wonder] Buildings by [all] Civilizations]]> <hidden from users>",
+			"Unavailable <when number of [[[World Wonder] Buildings]] is less than [5]> <hidden from users>", 
 			"Triggers a global alert upon build start",
 			"Triggers a Cultural Victory upon completion", 
 			"Only available <when [Cultural] Victory is enabled>", 
