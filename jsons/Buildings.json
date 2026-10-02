@@ -224,7 +224,7 @@
 		"gold": 1,
 		"greatPersonPoints": {"Great Merchant": 1},
 		"isWonder": true,
-		"uniques": ["[+1 Food, +1 Faith] from every [Pasture]"],
+		"uniques": ["[+2 Food, +2 Faith] from every [Pasture] <in this city>"],
 		"requiredTech": "Selective Breeding",
 		"quote": "'I made for thee a herd ... supplied with plentiful cattle without number, in order to present them to thy ka at all thy feasts.' - Great Harris Papyrus"
 	},
@@ -581,12 +581,12 @@
 	{
         "name": "Censer Maker",
         "cost": 75,
-        "culture": 2,
+        "culture": 3,
         "maintenance": 1,
         "requiredNearbyImprovedResources": ["Incense"],
         "hurryCostModifier": 25,
         "uniques": [
-            "[+1 Culture] from [Incense] tiles [in this city]"
+            "[+2 Culture, +2 Faith] from [Incense] tiles [in this city]"
         ],
         "requiredTech": "Porcelain"
     },
@@ -606,22 +606,22 @@
 	{
         "name": "Gemcutter",
         "cost": 75,
-        "culture": 1,
+        "culture": 3,
         "requiredNearbyImprovedResources": ["Gems, Pearls"],
-        "maintenance": 1,
+        "maintenance": 2,
         "hurryCostModifier": 25,
         "uniques": [
-            "[+1 Culture] from [Gems] tiles [in this city]",
-			"[+1 Culture] from [Pearls] tiles [in this city]"
+            "[+2 Culture] from [Gems] tiles [in this city]",
+			"[+2 Culture] from [Pearls] tiles [in this city]"
         ],
         "requiredTech": "Lapidary"
     },
 	{
         "name": "Grocer",
-        "maintenance": 1,
+        "maintenance": 2,
         "requiredNearbyImprovedResources": ["Citrus","Truffles","Spices"],
         "cost": 75,
-        "food": 1,
+        "food": 4,
         "hurryCostModifier": 25,
         "uniques": [
 			"[+1 Food] from [Citrus] tiles [in this city]",
@@ -635,12 +635,12 @@
         "maintenance": 0,
         "requiredNearbyImprovedResources": ["Salt","Wine","Sugar"],
         "cost": 75,
-        "gold": 2,
+        "gold": 4,
         "hurryCostModifier": 25,
         "uniques": [
-            "[+2 Gold] from [Sugar] tiles [in this city]",
-            "[+2 Gold] from [Wine] tiles [in this city]",
-            "[+2 Gold] from [Salt] tiles [in this city]"
+            "[+4 Gold] from [Sugar] tiles [in this city]",
+            "[+4 Gold] from [Wine] tiles [in this city]",
+            "[+4 Gold] from [Salt] tiles [in this city]"
         ],
         "requiredTech": "Provisioning"
     },
@@ -759,9 +759,8 @@
 		"name": "Observatory",
 		"maintenance": 0,
 		"hurryCostModifier": 15,
-		"percentStatBonus": {"science": 50},
 		"requiredBuilding": "Library",
-		"uniques": ["Must be next to [Mountain]"],
+		"uniques": ["[+6 Science] from [Mountain] tiles [in this city]", "[+1 Science] from [Tundra] tiles [in this city]"],
 		"requiredTech": "Astronomy"
 	},
 	{
@@ -1272,15 +1271,6 @@
 		"requiredTech": "Robotics"
 	},
 	// Column 16
-	{
-		"name": "United Nations",
-		"isWonder": true,
-		"culture": 1,
-		"greatPersonPoints": {"Great Merchant": 2},
-		"requiredTech": "Globalization",
-		"uniques": ["Triggers voting for the Diplomatic Victory", "Only available <when [Diplomatic] Victory is enabled>", "Triggers a global alert upon completion"],
-		"quote": "'More than ever before in human history, we share a common destiny. We can master it only if we face it together. And that is why we have the United Nations.' - Kofi Annan"
-	},
 
 	// All Eras
 

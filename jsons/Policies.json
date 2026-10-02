@@ -97,9 +97,9 @@
             "Scientific": 5
         },
         "uniques": [
-            "[+1 Food, +1 Production, +1 Gold, +1 Culture] from every [Barracks]",
-            "[+1 Food, +1 Production, +1 Gold, +1 Culture] from every [Armory]",
-            "[+1 Food, +1 Production, +1 Gold, +1 Culture] from every [Military Academy]",
+            "[+1 Food, +1 Production, +1 Gold] from every [Barracks]",
+            "[+1 Food, +1 Production, +1 Gold] from every [Armory]",
+            "[+1 Food, +1 Production, +1 Gold] from every [Military Academy]",
             "Only available <before adopting [Piety]>"
         ],
         "policies": [
@@ -540,7 +540,7 @@
 			{
 				"name": "Equality",
 				"uniques": [
-                    "[+2 Food, +1 Production, +1 Gold] [in all cities] <for every [[Unemployed] in [in this city] Cities]>"
+                    "[+2 Food, +2 Production, +2 Gold] [in all cities] <for every [[Unemployed] in [in this city] Cities]>"
 				],
 				"row": 1,
 				"column": 2
@@ -568,7 +568,7 @@
     {
 		"name": "Hierarchy",
 		"uniques": [
-            "[+100]% Production when constructing [all] wonders [in all cities]", "Only available <before adopting [Activism]>"
+            "[+50]% Production when constructing [all] wonders [in all cities]", "Only available <before adopting [Activism]>"
 		],
 		"era": "Modern era",
 		"priorities": {

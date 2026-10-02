@@ -1,47 +1,96 @@
 
 game.png
-size: 1024, 256
+size: 1024, 512
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
+BuildingIcons/Brewery
+  rotate: false
+  xy: 828, 220
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Censer Maker
+  rotate: false
+  xy: 620, 120
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Gemcutter
+  rotate: false
+  xy: 4, 28
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+BuildingIcons/Grocer
+  rotate: false
+  xy: 836, 112
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Textile Mill
+  rotate: false
+  xy: 728, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 NationIcons/Adelle Corp
   rotate: false
-  xy: 420, 104
+  xy: 828, 328
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/The New Movement
   rotate: false
-  xy: 212, 4
+  xy: 412, 20
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 PolicyIcons/Disease eradication
   rotate: false
-  xy: 528, 104
+  xy: 728, 112
   size: 100, 100
   orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Elite Forces
+  rotate: false
+  xy: 936, 378
+  size: 50, 50
+  orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Nuclear winter
   rotate: false
-  xy: 636, 104
+  xy: 620, 12
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
+PolicyIcons/Private spaceflight
+  rotate: false
+  xy: 620, 228
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
 PolicyIcons/World government
   rotate: false
-  xy: 744, 104
+  xy: 836, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Example
   rotate: false
-  xy: 4, 4
+  xy: 412, 228
   size: 200, 200
   orig: 200, 200
   offset: 0, 0

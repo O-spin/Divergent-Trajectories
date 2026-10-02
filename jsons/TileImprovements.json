@@ -73,14 +73,14 @@
 		"name": "Plantation",
 		"turnsToBuild": 6,
 		"gold": 1,
-		"techRequired": "Calendar",
+		"techRequired": "Pottery",
 		"uniques": ["[+1 Food] <after discovering [Fertilizer]>", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
 		"shortcutKey": "P"
 	},
 	{
 		"name": "Quarry",
 		"turnsToBuild": 8,
-		"techRequired": "Masonry",
+		"techRequired": "Mining",
 		"uniques": ["[+1 Production] <after discovering [Chemistry]>", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "Q"
 	},

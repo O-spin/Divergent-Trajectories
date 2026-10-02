@@ -232,7 +232,7 @@
 				"name": "Roman Concrete",
 				"row": 12,
 				"prerequisites": ["Construction", "Iron Working"],
-				"uniques": ["[-10]% construction time for [All Road] improvements", "[+1 Culture] [in all coastal cities]","[-100]% weight to this choice for AI decisions","Only available <before discovering [Civil Service]>"],
+				"uniques": ["[-25]% construction time for [All Road] improvements", "[+1 Culture] [in all coastal cities]","[-100]% weight to this choice for AI decisions","Only available <before discovering [Civil Service]>"],
 				"quote": "'Instrumental or mechanical science is the noblest and, above all others, the most useful.' - Leonardo da Vinci"
 			}
 		]
@@ -288,7 +288,7 @@
 				"name": "Lapidary",
 				"row": 10,
 				"prerequisites": ["Civil Service"],
-                "uniques": ["[+1 Culture] from [Gems] tiles [in all cities]", "[+1 Culture] from [Pearls] tiles [in all cities]","[-100]% weight to this choice for AI decisions","Only available <before discovering [Education]>"],
+                "uniques": ["[-100]% weight to this choice for AI decisions","Only available <before discovering [Education]>"],
 				"quote": "'The lovely green color refreshes the eyes of those who carve gems.' - Isidore of Seville"
 			}
 			{
@@ -312,7 +312,7 @@
 				"cost": 375,
 				"row": 7,
 				"prerequisites": ["Compass", "Guilds"],
-                "uniques": ["[+1 Gold] from [Spices] tiles [in all cities]", "[+1 Gold] from [Wine] tiles [in all cities]", "[+1 Gold] from [Sugar] tiles [in all cities]", "[+1 Gold] from [Truffles] tiles [in all cities]", "[+1] Movement <for [Galleass] units>", "[-50]% weight to this choice for AI decisions","Only available <before discovering [Education]>"],
+                "uniques": ["[+1] Movement <for [Galleass] units>", "[-50]% weight to this choice for AI decisions","Only available <before discovering [Education]>"],
 				"quote": "'There is an uninterrupted chain of bazaars from Alexandria to Cairo.'- Ibn Battuta"
 			},
 				{
@@ -321,7 +321,6 @@
 				"prerequisites": ["Theology", "Guilds"],
                 "uniques": [
 					"[+5]% [Gold] from Trade Routes",
-					"[+1 Gold] from [Incense] tiles [in all cities]",
 					"Only available <before discovering [Education]>"
 				],
                 "quote": "'They make dishes and vessels of porcelain, of all sizes and forms.' - Marco Polo"
@@ -372,7 +371,6 @@
 			}
 			]
 	},
-	
 	{
 		"columnNumber": 10,
 		"era": "Renaissance era",
@@ -801,35 +799,32 @@
 				"name": "Telecommunications",
 				"row": 7,
 				"prerequisites": ["The Internet"],
-				"uniques": ["Only available <before discovering [Future Tech]>"],
 				"quote": "'The more we elaborate our means of communication, the less we communicate.' - J.B. Priestly"
 			},
 			{
 				"name": "Mobile Tactics",
 				"row": 8,
 				"prerequisites": ["The Internet"],
-				"uniques": ["Only available <before discovering [Future Tech]>"],
 				"quote": "'All men can see these tactics whereby I conquer, but what none can see is the strategy out of which victory is evolved.' - Sun Tzu"
 			},
 			{
 				"name": "Rocketry",
 				"row": 9,
 				"prerequisites": ["The Internet"],
-                "uniques": ["[+100]% weight to this choice for AI decisions","Only available <before discovering [Future Tech]>"],
+                "uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'A good rule for rocket experimenters to follow is this: always assume that it will explode.' - Astronautics Magazine, 1937"
 			},
 			{
 				"name": "Robotics",
 				"row": 10,
 				"prerequisites": ["The Internet"],
-				"uniques": ["Only available <before discovering [Future Tech]>"],
 				"quote": "'1. A robot may not injure a human being or, through inaction, allow a human being to come to harm. 2. A robot must obey any orders given to it by human beings, except when such orders would conflict with the First Law. 3. A robot must protect its own existence as long as such protection does not conflict with the First or Second Law.' - Isaac Asimov"
 			},
 			{
 				"name": "Lasers",
 				"row": 11,
 				"prerequisites": ["The Internet"],
-                "uniques": ["[-100]% weight to this choice for AI decisions","Only available <before discovering [Future Tech]>"],
+                "uniques": ["[-100]% weight to this choice for AI decisions"],
 				"quote": "'The night is far spent, the day is at hand: let us therefore cast off the works of darkness, and let us put on the armor of light.' - The Holy Bible: Romans, 13:12"
 			}
 		]
@@ -845,35 +840,33 @@
 				"name": "Globalization",
 				"row": 7,
 				"prerequisites": ["Telecommunications"],
-                "uniques": ["[-100]% weight to this choice for AI decisions","Only available <before discovering [Future Tech]>"],
+                "uniques": ["[-100]% weight to this choice for AI decisions"],
 				"quote": "'The new electronic interdependence recreates the world in the image of a global village.' - Marshall McLuhan"
 			},
 			{
 				"name": "Particle Physics",
 				"row": 8,
 				"prerequisites": ["Telecommunications", "Mobile Tactics"],
-				"uniques": ["Only available <before discovering [Future Tech]>"],
 				"quote": "'Every particle of matter is attracted by or gravitates to every other particle of matter with a force inversely proportional to the squares of their distances.' - Isaac Newton"
 			},
 			{
 				"name": "Satellites",
 				"row": 9,
 				"prerequisites": ["Rocketry"],
-				"uniques": ["Reveals the entire map","[+200]% weight to this choice for AI decisions","Only available <before discovering [Future Tech]>"],
+				"uniques": ["Reveals the entire map","[+200]% weight to this choice for AI decisions"],
 				"quote": "'Now, somehow, in some new way, the sky seemed almost alien.' - Lyndon B. Johnson"
 			},
 			{
 				"name": "Nanotechnology",
 				"row": 10,
 				"prerequisites": ["Robotics"],
-				"uniques": ["Only available <before discovering [Future Tech]>"],
 				"quote": "'The impact of nanotechnology is expected to exceed the impact that the electronics revolution has had on our lives.' - Richard Schwartz"
 			},
 			{
 				"name": "Stealth",
 				"row": 11,
 				"prerequisites": ["Lasers"],
-                "uniques": ["[-100]% weight to this choice for AI decisions","Only available <before discovering [Future Tech]>"],
+                "uniques": ["[-100]% weight to this choice for AI decisions"],
 				"quote": "'Be extremely subtle, even to the point of formlessness, be extremely mysterious, even to the point of soundlessness. Thereby you can be the director of the opponent's fate.' - Sun Tzu"
 			}
 		]
@@ -889,7 +882,7 @@
 				"name": "Nuclear Fusion",
 				"row": 8,
 				"prerequisites": ["Particle Physics"],
-                "uniques": ["[-100]% weight to this choice for AI decisions","Only available <before discovering [Future Tech]>"],
+                "uniques": ["[-100]% weight to this choice for AI decisions"],
 				"quote": "'The release of atomic energy has not created a new problem. It has readily made more urgent the necessity of solving an existing one.' - Albert Einstein"
 			}
 		]
