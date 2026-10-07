@@ -224,7 +224,7 @@
 		"gold": 1,
 		"greatPersonPoints": {"Great Merchant": 1},
 		"isWonder": true,
-		"uniques": ["[+2 Food, +2 Faith] from every [Pasture] <in this city>"],
+		"uniques": ["[+1 Food, +2 Faith] from every [Pasture] <in this city>"],
 		"requiredTech": "Selective Breeding",
 		"quote": "'I made for thee a herd ... supplied with plentiful cattle without number, in order to present them to thy ka at all thy feasts.' - Great Harris Papyrus"
 	},
