@@ -43,7 +43,9 @@
             "Considered [Food] when determining start locations <in [Hill] Regions>",
             "Considered [Food] when determining start locations <in [Grassland] Regions>",
             "Considered [Food] when determining start locations <in [Hybrid] Regions>",
-            "Every [33] tiles with this terrain will receive a major deposit of a strategic resource."]
+            "Every [33] tiles with this terrain will receive a major deposit of a strategic resource.",
+			"Fresh water <in cities with a [Enneakrounos]> <hidden from users>"
+		]
     },
 	{
 		"name": "Plains",

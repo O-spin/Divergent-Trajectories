@@ -116,6 +116,13 @@
 				"prerequisites": ["Mining"],
                 "uniques": ["[+50]% weight to this choice for AI decisions","Only available <before discovering [Writing]>"],
 				"quote": "'Here Hector entered, with a spear eleven cubits long in his hand; the bronze point gleamed in front of him, and was fastened to the shaft of the spear by a ring of gold.' - Homer"
+			},
+			{
+				"name": "Groundwater",
+				"row": 13,
+				"prerequisites": ["Mining"],
+                "uniques": ["[+50]% weight to this choice for AI decisions","Only available <before discovering [Writing]>"],
+				"quote": "'If they do not flow forth, the sources are to be sought under the earth and collected.' - Vitruvius"
 			}
 		]
 	},

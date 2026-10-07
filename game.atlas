@@ -1,96 +1,103 @@
 
 game.png
-size: 1024, 512
+size: 2048, 512
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 BuildingIcons/Brewery
   rotate: false
-  xy: 828, 220
+  xy: 520, 154
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Censer Maker
   rotate: false
-  xy: 620, 120
+  xy: 1144, 362
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Gemcutter
   rotate: false
-  xy: 4, 28
+  xy: 4, 62
   size: 400, 400
   orig: 400, 400
   offset: 0, 0
   index: -1
 BuildingIcons/Grocer
   rotate: false
-  xy: 836, 112
+  xy: 1252, 362
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Textile Mill
   rotate: false
-  xy: 728, 4
+  xy: 1360, 362
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Adelle Corp
   rotate: false
-  xy: 828, 328
+  xy: 1036, 362
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/The New Movement
   rotate: false
-  xy: 412, 20
+  xy: 828, 262
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
+PolicyBranchIcons/Activism
+  rotate: false
+  xy: 412, 154
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 PolicyIcons/Disease eradication
   rotate: false
-  xy: 728, 112
+  xy: 628, 154
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Elite Forces
   rotate: false
-  xy: 936, 378
+  xy: 4, 4
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Nuclear winter
   rotate: false
-  xy: 620, 12
+  xy: 736, 154
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Private spaceflight
   rotate: false
-  xy: 620, 228
+  xy: 620, 262
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 PolicyIcons/World government
   rotate: false
-  xy: 836, 4
+  xy: 844, 154
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Example
   rotate: false
-  xy: 412, 228
+  xy: 412, 262
   size: 200, 200
   orig: 200, 200
   offset: 0, 0

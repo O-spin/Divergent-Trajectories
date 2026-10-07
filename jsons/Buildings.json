@@ -415,10 +415,31 @@
 		"quote": "'...who drinks the water I shall give him, says the Lord, will have a spring inside him welling up for eternal life. Let them bring me to your holy mountain in the place where you dwell. Across the desert and through the mountain to the Canyon of the Crescent Moon...' - Indiana Jones"
 	},
 	{
+		"name": "Town well",
+		"cost": 40,
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"uniques": ["[20]% Food is carried over after population increases [in this city]"],
+		"requiredTech": "Groundwater"
+	},
+	{
+		"name": "Enneakrounos",
+		"culture": 1,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Scientist": 1},
+		"uniques": [
+			"Comment [Grassland tiles in this city give access to Fresh Water to adjacent tiles]",
+			"[+1 Food] from [{Grassland} {Farm}] tiles [in this city] <before discovering [Civil Service]>",
+			"Must be next to [Grassland]"
+		],
+		"requiredTech": "Groundwater",
+		"quote": "'There are cisterns all over the city, but this is the only fountain.' - Pausanias"
+	},
+	{
 		"name": "Aqueduct",
 		"maintenance": 1,
 		"hurryCostModifier": 0,
-		"uniques": ["[40]% Food is carried over after population increases [in this city]"],
+		"uniques": ["[20]% Food is carried over after population increases [in this city]"],
 		"requiredTech": "Engineering"
 	},
 	{
@@ -994,8 +1015,8 @@
 	{
 		"name": "Factory",
 		"cost": 360,
-		"production": 4,
-		"percentStatBonus": {"production": 10},
+		"production": 2,
+		"percentStatBonus": {"production": 25},
 		"specialistSlots": {"Engineer": 2},
 		"maintenance": 3,
 		"hurryCostModifier": 0,
