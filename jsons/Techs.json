@@ -775,14 +775,14 @@
 		"techs": [
 			{
 				"name": "Advanced Ballistics",
-				"row": 9,
+				"row": 10,
 				"prerequisites": ["Radar"],
 				"uniques": ["Only available <before discovering [The Internet]>"],
 				"quote": "'Our scientific power has outrun our spiritual power, we have guided missiles and misguided men.' – Martin Luther King Jr."
 			},
 			{
 				"name": "Computers",
-				"row": 10,
+				"row": 11,
 				"prerequisites": ["Combined Arms"],
 				"uniques": ["Only available <before discovering [The Internet]>"],
 				"quote": "'Computers are like Old Testament gods: lots of rules and no mercy.' - Joseph Campbell"
