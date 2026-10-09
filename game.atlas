@@ -6,14 +6,21 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 BuildingIcons/Brewery
   rotate: false
-  xy: 520, 154
+  xy: 628, 154
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Censer Maker
   rotate: false
-  xy: 1144, 362
+  xy: 1252, 362
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Enneakrounos
+  rotate: false
+  xy: 1468, 362
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -27,14 +34,56 @@ BuildingIcons/Gemcutter
   index: -1
 BuildingIcons/Grocer
   rotate: false
-  xy: 1252, 362
+  xy: 1792, 362
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Jindezhen Porcelain Hub
+  rotate: false
+  xy: 1036, 254
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Residential Block
+  rotate: false
+  xy: 1792, 254
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Temple Herds
+  rotate: false
+  xy: 844, 46
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Textile Mill
   rotate: false
-  xy: 1360, 362
+  xy: 952, 146
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/The Iron Pillar of Delhi
+  rotate: false
+  xy: 1168, 146
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/The Pantheon
+  rotate: false
+  xy: 1276, 146
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Town well
+  rotate: false
+  xy: 1384, 146
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -60,23 +109,65 @@ PolicyBranchIcons/Activism
   orig: 100, 100
   offset: 0, 0
   index: -1
-PolicyIcons/Disease eradication
+PolicyIcons/Atomic Defense
   rotate: false
-  xy: 628, 154
+  xy: 520, 154
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-PolicyIcons/Elite Forces
+PolicyIcons/Atomic build up
+  rotate: false
+  xy: 1144, 362
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Decolonization
+  rotate: false
+  xy: 1360, 362
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Disease eradication
+  rotate: false
+  xy: 844, 154
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Elite forces
   rotate: false
   xy: 4, 4
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
+PolicyIcons/Equality
+  rotate: false
+  xy: 1576, 362
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Excellence
+  rotate: false
+  xy: 1684, 362
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 PolicyIcons/Nuclear winter
   rotate: false
-  xy: 736, 154
+  xy: 1360, 254
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Pacifism
+  rotate: false
+  xy: 1468, 254
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -88,9 +179,93 @@ PolicyIcons/Private spaceflight
   orig: 200, 200
   offset: 0, 0
   index: -1
+PolicyIcons/Space race
+  rotate: false
+  xy: 628, 46
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 PolicyIcons/World government
   rotate: false
-  xy: 844, 154
+  xy: 1492, 146
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Damascus Steel
+  rotate: false
+  xy: 736, 154
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Groundwater
+  rotate: false
+  xy: 1900, 362
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Lapidary
+  rotate: false
+  xy: 1144, 254
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Modernist Architecture
+  rotate: false
+  xy: 1252, 254
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Porcelain
+  rotate: false
+  xy: 1576, 254
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Provisioning
+  rotate: false
+  xy: 1684, 254
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Rhetoric
+  rotate: false
+  xy: 1900, 254
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Roman Concrete
+  rotate: false
+  xy: 412, 46
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Selective Breeding
+  rotate: false
+  xy: 520, 46
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Stirrups
+  rotate: false
+  xy: 736, 46
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/The Internet
+  rotate: false
+  xy: 1060, 146
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
