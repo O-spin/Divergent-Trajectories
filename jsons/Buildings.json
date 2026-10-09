@@ -1228,7 +1228,7 @@
 		"requiredTech": "Modernist Architecture",
 		"uniques": [
 			"[+2 Science, +2 Culture] [in this city] <for every [[Unemployed] in [in this city] Cities]>",
-			"+[25]% [Culture] <for every [15] [[Population] in [in this city] Cities]>"
+			"[+25]% [Culture] <for every [15] [[Population] in [in this city] Cities]>"
 		]
 	},
 	{
