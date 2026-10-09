@@ -1733,7 +1733,7 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 750,
-		"requiredTech": "Advanced Ballistics",
+		"requiredTech": "Rocketry",
 		"requiredResource": "Aluminum",
 		"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [3] per Civilization", "Only available <when [Scientific] Victory is enabled>"]
 		// costs 1500 in BNW

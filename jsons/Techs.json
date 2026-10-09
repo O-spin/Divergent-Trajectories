@@ -734,22 +734,32 @@
 				"quote": "'Only within the moment of time represented by the present century has one species, man, acquired significant power to alter the nature of his world.' - Rachel Carson"
 			},
 			{
-				"name": "Nuclear Fission",
+				"name": "Modernist Architecture",
 				"row": 8,
+				"prerequisites": ["Atomic Theory"],
+				"uniques": [
+					"Only available <before discovering [The Internet]>",
+					"[+1 Culture] from every specialist [in all cities] <in cities with at least [20] [Population]>"
+				],
+				"quote": "Form follows function. - Louis Sullivan"
+			},
+			{
+				"name": "Nuclear Fission",
+				"row": 9,
 				"prerequisites": ["Atomic Theory"],
 				"uniques": ["Only available <before discovering [The Internet]>"],
 				"quote": "'I am become Death, the destroyer of worlds.' - J. Robert Oppenheimer"
 			},
 			{
 				"name": "Radar",
-				"row": 9,
+				"row": 10,
 				"prerequisites": ["Atomic Theory"],
                 "uniques": ["[+100]% weight to this choice for AI decisions","Only available <before discovering [The Internet]>"],
 				"quote": "'Vision is the art of seeing things invisible.' - Jonathan Swift"
 			},
 			{
 				"name": "Combined Arms",
-				"row": 10,
+				"row": 11,
 				"prerequisites": ["Atomic Theory"],
 				"uniques": ["Only available <before discovering [The Internet]>"],
 				"quote": "'The root of the evil is not the construction of new, more dreadful weapons. It is the spirit of conquest.' - Ludwig von Mises"
@@ -843,13 +853,6 @@
 		"buildingCost": 750,
 		"wonderCost": 1250,
 		"techs": [
-			{
-				"name": "Globalization",
-				"row": 7,
-				"prerequisites": ["Telecommunications"],
-                "uniques": ["[-100]% weight to this choice for AI decisions"],
-				"quote": "'The new electronic interdependence recreates the world in the image of a global village.' - Marshall McLuhan"
-			},
 			{
 				"name": "Particle Physics",
 				"row": 8,

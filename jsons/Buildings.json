@@ -419,7 +419,7 @@
 		"cost": 40,
 		"maintenance": 1,
 		"hurryCostModifier": 0,
-		"uniques": ["[20]% Food is carried over after population increases [in this city]"],
+		"uniques": ["[10]% Food is carried over after population increases [in this city]"],
 		"requiredTech": "Groundwater"
 	},
 	{
@@ -439,7 +439,7 @@
 		"name": "Aqueduct",
 		"maintenance": 1,
 		"hurryCostModifier": 0,
-		"uniques": ["[20]% Food is carried over after population increases [in this city]"],
+		"uniques": ["[30]% Food is carried over after population increases [in this city]"],
 		"requiredTech": "Engineering"
 	},
 	{
@@ -1220,6 +1220,16 @@
 		"uniques": ["Free Social Policy","Must be next to [Coast]"],
 		"requiredTech": "Ecology",
 		"quote": "'Those who lose dreaming are lost.' - Australian Aboriginal saying"
+	},
+	{
+		"name": "Residential Block",
+		"happiness": 1,
+		"maintenance": 4,
+		"requiredTech": "Modernist Architecture",
+		"uniques": [
+			"[+2 Science, +2 Culture] [in this city] <for every [[Unemployed] in [in this city] Cities]>",
+			"+[25]% [Culture] <for every [15] [[Population] in [in this city] Cities]>"
+		]
 	},
 	{
 		"name": "Nuclear Plant",
